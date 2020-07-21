@@ -9,16 +9,13 @@ const NasaPhoto = () => {
 
     useEffect(() => {
         fetchPhoto();
-
         async function fetchPhoto() {
             const res = await fetch(
                 `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`
             );
-
             const data = await res.json();
             setPhotoData(data);
         }
-        
     }, []);
 
     if (!photoData) return <div />;

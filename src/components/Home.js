@@ -1,12 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import Parralax from './Parralax';
 
-const Home = () => {
+const  Home = () => {
     return (
         <div className="home">
-            <Link className="home-link" to="/nasaphoto">See into the stars!</Link>
+            <Parralax />
+            <Link className="home-link" to="/nasaphoto">Voir La Photo Du Jour</Link>
         </div>
-    );
+    );   
 };
 
 export default Home;
