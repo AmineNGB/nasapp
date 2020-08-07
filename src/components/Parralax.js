@@ -9,7 +9,7 @@ const Parralax = () => {
 
     return (
         
-            <section>
+            <section className="bg-home">
                 <img src={bg} id="bg" alt="bg"   />
                 <img src={moon} id="moon" alt="moon"/>
                 <img src={mountain} id="mountain" alt="mountain"/>

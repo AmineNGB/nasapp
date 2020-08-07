@@ -46,7 +46,7 @@ const NasaPhoto = () => {
   return (
     <>
       <NavBar />
-      <div className="nasa-photo">
+      <div className="content-container">
         {photoData.media_type === "image" ? (
           <img
             src={photoData.url}
@@ -67,6 +67,7 @@ const NasaPhoto = () => {
         <div className="content">
           <h1>{photoData.title}</h1>
           <p className="date">{photoData.date}</p>
+          <p className="copyright"> by: {photoData.copyright}</p>
           <p className="explanation">{photoData.explanation}</p>
         </div>
       </div>
