@@ -23,18 +23,22 @@ const NasaPhoto = () => {
   const handleHD = () => {
     const modal = document.querySelector(".modal");
     const photo = document.querySelector(".photo");
+    const original = document.querySelector(".full-img");
 
     photo.addEventListener("click", () => {
       modal.classList.add("open");
+      original.classList.add("open");
     });
   };
 
   const handleOut = (e) => {
     const modal = document.querySelector(".modal");
+    const original = document.querySelector(".full-img");
 
     modal.addEventListener("click", (e) => {
       if (e.target.classList.contains("modal")) {
         modal.classList.remove("open");
+        original.classList.remove("open");
       }
     });
   };
