@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/nasapp/static/css/main.f60c5ca3.chunk.css",
-    "main.js": "/nasapp/static/js/main.51e0ba16.chunk.js",
-    "main.js.map": "/nasapp/static/js/main.51e0ba16.chunk.js.map",
+    "main.css": "/nasapp/static/css/main.8d4a98cf.chunk.css",
+    "main.js": "/nasapp/static/js/main.cddd594d.chunk.js",
+    "main.js.map": "/nasapp/static/js/main.cddd594d.chunk.js.map",
     "runtime-main.js": "/nasapp/static/js/runtime-main.971ffb12.js",
     "runtime-main.js.map": "/nasapp/static/js/runtime-main.971ffb12.js.map",
     "static/js/2.47e130db.chunk.js": "/nasapp/static/js/2.47e130db.chunk.js",
     "static/js/2.47e130db.chunk.js.map": "/nasapp/static/js/2.47e130db.chunk.js.map",
     "index.html": "/nasapp/index.html",
-    "precache-manifest.7bbc5b189fe6bfdd41b698bd60d69303.js": "/nasapp/precache-manifest.7bbc5b189fe6bfdd41b698bd60d69303.js",
+    "precache-manifest.5971fc9fbd30851e508310282fc6147c.js": "/nasapp/precache-manifest.5971fc9fbd30851e508310282fc6147c.js",
     "service-worker.js": "/nasapp/service-worker.js",
-    "static/css/main.f60c5ca3.chunk.css.map": "/nasapp/static/css/main.f60c5ca3.chunk.css.map",
+    "static/css/main.8d4a98cf.chunk.css.map": "/nasapp/static/css/main.8d4a98cf.chunk.css.map",
     "static/js/2.47e130db.chunk.js.LICENSE.txt": "/nasapp/static/js/2.47e130db.chunk.js.LICENSE.txt",
     "static/media/bg.jpg": "/nasapp/static/media/bg.5df9840d.jpg",
     "static/media/moon.png": "/nasapp/static/media/moon.d561442c.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.971ffb12.js",
     "static/js/2.47e130db.chunk.js",
-    "static/css/main.f60c5ca3.chunk.css",
-    "static/js/main.51e0ba16.chunk.js"
+    "static/css/main.8d4a98cf.chunk.css",
+    "static/js/main.cddd594d.chunk.js"
   ]
 }
